@@ -1,82 +1,67 @@
-# Hi there, I'm Abhishek M Hiremath 👋
+# 👨‍💻 Abhishek M Hiremath
 
-### Data Engineer in Progress | AI/ML Enthusiast | B.Tech CSE Student @ PES University
-
----
-
-🚀 I’m passionate about coding, problem-solving, and building intelligent & secure software systems.  
-💻 Currently exploring Data Engineering, AI/ML, secure networking, and full-stack development.
-
----
-
-## 👨‍💻 About Me
-
-I’m a B.Tech 2nd/3rd year Computer Science & Engineering student at PES University, Bengaluru.  
-I have hands-on experience in AI/ML, cybersecurity, and software engineering through internships and personal projects.  
-My focus is on creating robust and scalable solutions using Python, TensorFlow, Flask, and related modern tools.
+**Computer Science & Engineering Student @ PES University**  
+🎯 Focused on AI/ML • Secure Systems • Full-Stack Development  
+📍 Bengaluru, India  
+🌐 [Portfolio Website](https://abhishekmhiremath.com)  
+📫 [abhishekhiremath701@gmail.com](mailto:abhishekhiremath701@gmail.com)  
 
 ---
 
-## 🛠 Skills & Technologies
+## 🔧 About Me
 
-### Programming Languages  
-Python | Java | JavaScript | C | C++ | SQL | PHP
-
-### Web & Software Development  
-React | Next.js | HTML/CSS | Bootstrap | Flask | Django | Streamlit | REST APIs
-
-### AI, ML & Data Technologies  
-TensorFlow | PyTorch | scikit-learn | XGBoost | OpenCV | Pandas | LangChain | OpenAI API | PineconeDB | RAG
-
-### Networking & Security  
-Cybersecurity | VPN Development | TLS Encryption | Socket Programming | Multithreading | Cisco Packet Tracer
-
-### Databases & DevOps  
-MySQL | PostgreSQL | MongoDB | SQLite | Redis | Prisma | Git | Docker
+I'm a B.Tech student specializing in Computer Science and Engineering at PES University. I’m passionate about solving real-world problems through intelligent systems and secure infrastructures. My work spans AI/ML, backend engineering, and system-level programming with tools like Python, Flask, TensorFlow, and Streamlit.
 
 ---
 
-## 🚧 Featured Projects
+## 💼 Experience
 
-### 🔊 [RAG + LiveKit Voice Assistant](https://github.com/ABHI-Devhub/rag-livekit-voice-assistant)  
-**June 2025**  
-An advanced voice-enabled Retrieval-Augmented Generation (RAG) system combining real-time conversational AI with document intelligence.
+- **Software Intern** — Sharpsell.ai  
+  _Jun 2025 – Present • Bengaluru (On-site)_
 
-**Key Features:**
-- Dual-interface: Streamlit app + LiveKit-based voice assistant
-- Real-time voice-to-text interaction
-- Intelligent document Q&A using OpenAI and Pinecone
-- Supports multiple PDF sources and conversation memory
-- Built using LangChain, PineconeDB, and OpenAI API
-
-**Tech Stack:** Python, Streamlit, OpenAI API, LangChain, PineconeDB, LiveKit, RAG
+- **AI/ML Intern** — Eyesec Cyber Security Solutions  
+  _Jan 2023 – Jul 2023 • Belagavi (On-site)_  
+  _Built ML classification models for cybersecurity threats using Python & TensorFlow._
 
 ---
 
-### 🧠 [Brain Tumor MRI Analysis System](https://github.com/ABHI-Devhub/brain-tumor-mri-analysis)  
-**Dec 2024 – Jan 2025**  
-A medical imaging solution for detecting and classifying brain tumors from MRI scans (Glioma, Meningioma, Pituitary).
+## 🚀 Featured Projects
 
-**Key Features:**
-- EfficientNetB4 for classification with 3D MRI input
-- U-Net and ResNet50 for image segmentation
-- Confidence scoring and treatment suggestion via Gemini AI
-- Interactive web frontend built with React and Flask backend
+### 🔊 RAG + LiveKit Voice Assistant  
+**[🔗 GitHub Repo](https://github.com/Abhi-DevHub/RAG-LiveKit-OpenAI---Voice-Assistant)**  
+An advanced RAG-based voice assistant that fuses document intelligence with real-time voice interaction. Features dual UI (Streamlit & LiveKit agent), PDF parsing, PineconeDB indexing, and memory-aware responses.
 
-**Tech Stack:** React (TypeScript), Tailwind CSS, Flask, TensorFlow, Keras, EfficientNetB4, ResNet50, XGBoost, Gemini API
+**Tech Stack:** `Python`, `Streamlit`, `LangChain`, `Pinecone`, `OpenAI API`, `LiveKit`, `RAG`, `PDF Parsing`  
+![RAG Project](https://github.com/Abhi-DevHub/RAG-LiveKit-OpenAI---Voice-Assistant/raw/main/Images/image_main.png)
 
 ---
 
-## 📫 Contact Me
+### 🧠 Brain Tumor MRI Analysis System  
+**[🔗 GitHub Repo](https://github.com/Abhi-DevHub/TumerDetect)**  
+AI-powered web app that classifies brain MRI scans into tumor types (Glioma, Meningioma, Pituitary) using EfficientNetB4. Also provides Gemini AI-generated treatment suggestions.
 
-[![LinkedIn](https://img.shields.io/badge/-Abhishek-blue?style=flat-square&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/abhishek-hiremath)](https://www.linkedin.com/in/abhishek-hiremath)  
-[![Gmail](https://img.shields.io/badge/-abhishekhiremath701@gmail.com-c14438?style=flat-square&logo=gmail&logoColor=white&link=mailto:abhishekhiremath701@gmail.com)](mailto:abhishekhiremath701@gmail.com)  
-[![X](https://img.shields.io/badge/-@abhixblue-000000?style=flat-square&logo=X&logoColor=white&link=https://x.com/abhixblue)](https://x.com/abhixblue)
-
----
-
-⭐️ If you found these projects interesting, don’t forget to star them!
+**Tech Stack:** `React`, `Flask`, `TensorFlow`, `EfficientNetB4`, `XGBoost`, `Gemini API`  
+![Tumor Detection](https://github.com/Abhi-DevHub/TumerDetect/raw/main/images/image.png)
 
 ---
 
-*Last updated: June 2025*
+## 🧠 Skills & Tools
+
+**Languages:** Python, JavaScript, C/C++, Java, SQL  
+**Frameworks:** Flask, Django, React, Streamlit, Next.js  
+**ML Tools:** TensorFlow, PyTorch, scikit-learn, LangChain  
+**Database:** PostgreSQL, MongoDB, PineconeDB  
+**Security:** VPN Dev, TLS, Socket Programming  
+**Other:** Git, Docker, REST APIs
+
+---
+
+## 📫 Let's Connect!
+
+- 💼 [LinkedIn](https://linkedin.com/in/abhishek-hiremath-bbb50b270)  
+- 🐙 [GitHub](https://github.com/Abhi-DevHub)  
+- 📧 [abhishekhiremath701@gmail.com](mailto:abhishekhiremath701@gmail.com)
+
+---
+
+_Thanks for visiting! 🚀_
