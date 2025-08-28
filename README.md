@@ -16,7 +16,7 @@ I'm a B.Tech student specializing in Computer Science and Engineering at PES Uni
 ## 💼 Experience
 
 - **Software Intern** — Sharpsell.ai  
-  _Jun 2025 – Present • Bengaluru (On-site)_
+  _Jun 2025 – Jul 2025 • Bengaluru (On-site)_
 
 - **AI/ML Intern** — Eyesec Cyber Security Solutions  
   _Jan 2023 – Jul 2023 • Belagavi (On-site)_  
