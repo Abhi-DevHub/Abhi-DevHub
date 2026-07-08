@@ -43,4 +43,10 @@ I'm a B.Tech student specializing in Computer Science and Engineering at PES Uni
 
 ---
 
+## 🎯 Recent Open Source Contributions
+
+- [#23584](https://github.com/lingdojo/kana-dojo/pull/23584) — Added Slam Dunk (Kaede Rukawa) anime quote to kana-dojo, merged into `lingdojo:main` | [Closes #23580](https://github.com/lingdojo/kana-dojo/issues/23580)
+
+---
+
 _Thanks for visiting! 🚀_
