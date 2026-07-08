@@ -84,8 +84,6 @@ I'm a B.Tech CSE student at **PES University**, Bengaluru, passionate about solv
 
 ---
 
----
-
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,1:0d1117&height=120&section=footer" />
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0052cc,1:ffffff&height=120&section=footer" />
