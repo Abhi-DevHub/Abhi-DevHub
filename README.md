@@ -1,6 +1,7 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:58a6ff&height=200&section=header&text=Abhishek%20M%20Hiremath&fontSize=50&fontColor=ffffff&fontAlignY=36&desc=CS%20%40%20PES%20University%20%E2%80%A2%20AI%2FML%20%E2%80%A2%20Secure%20Systems%20%E2%80%A2%20Open%20Source&descAlignY=55" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:58a6ff&height=200&section=header&text=Abhishek%20M%20Hiremath&fontSize=50&fontColor=ffffff&fontAlignY=36&desc=CS%20%40%20PES%20University%20%E2%80%A2%20AI%2FML%20%E2%80%A2%20Secure%20Systems%20%E2%80%A2%20Open%20Source&descAlignY=55" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,100:0052cc&height=200&section=header&text=Abhishek%20M%20Hiremath&fontSize=50&fontColor=0d1117&fontAlignY=36&desc=CS%20%40%20PES%20University%20%E2%80%A2%20AI%2FML%20%E2%80%A2%20Secure%20Systems%20%E2%80%A2%20Open%20Source&descAlignY=55" />
+</picture>
 
 <p align="center">
   <a href="mailto:abhishekhiremath701@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
@@ -97,6 +98,7 @@ Currently pursuing my **B.Tech in CSE** at **PES University**, Bengaluru.
   <i>Thanks for stopping by!</i> ✨
 </p>
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,1:0d1117&height=120&section=footer" />
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,1:0d1117&height=120&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0052cc,1:ffffff&height=120&section=footer" />
+</picture>
