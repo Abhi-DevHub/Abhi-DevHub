@@ -20,6 +20,8 @@
 
 Building intelligent systems at the intersection of **AI/ML**, **secure infrastructure**, and **full-stack engineering**.
 
+I'm a B.Tech CSE student at **PES University**, Bengaluru, passionate about solving real-world problems through intelligent systems and secure architectures. My work spans ML model development, backend engineering (Flask, Django, Next.js), and system-level programming. I enjoy contributing to open source and building tools that make a difference.
+
 ---
 
 ##  Experience
@@ -76,11 +78,11 @@ Building intelligent systems at the intersection of **AI/ML**, **secure infrastr
 
 ---
 
-##  Pinned Repos
-
 <p align="center">
-  <a href="https://github.com/Abhi-DevHub?tab=repositories"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Abhi-DevHub&repo=Abhi-DevHub&theme=react&hide_border=true&bg_color=0d1117" width="45%" /></a>
+  <i>Thanks for stopping by!</i> ✨
 </p>
+
+---
 
 ---
 
