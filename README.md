@@ -44,7 +44,7 @@ I'm a B.Tech CSE student at **PES University**, Bengaluru, passionate about solv
 
 </details>
 
-<details>
+<details open>
 <summary><b>Frameworks & Libraries</b></summary>
 
 | Flask | Django | React | Next.js | Streamlit |
@@ -57,7 +57,7 @@ I'm a B.Tech CSE student at **PES University**, Bengaluru, passionate about solv
 
 </details>
 
-<details>
+<details open>
 <summary><b>Databases & Infra</b></summary>
 
 | PostgreSQL | MongoDB | Docker | Git | Linux |
