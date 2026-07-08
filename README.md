@@ -45,27 +45,45 @@ Currently pursuing my **B.Tech in CSE** at **PES University**, Bengaluru.
 
 <details>
 <summary><b>Frameworks & Libraries</b></summary>
-
-`Flask` `Django` `React` `Next.js` `Streamlit` `TensorFlow` `PyTorch` `scikit-learn` `LangChain`
-
+<table>
+  <tr>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="40" /><br>Flask</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="40" /><br>Django</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" /><br>React</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="40" /><br>Next.js</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" width="40" /><br>Streamlit</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="40" /><br>TensorFlow</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="40" /><br>PyTorch</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" width="40" /><br>scikit-learn</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/langchain/langchain-original.svg" width="40" /><br>LangChain</td>
+    <td align="center"></td>
+  </tr>
+</table>
 </details>
 
 <details>
 <summary><b>Databases & Infra</b></summary>
-
-`PostgreSQL` `MongoDB` `PineconeDB` `Docker` `Git` `REST APIs` `TLS` `Socket Programming`
-
+<table>
+  <tr>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" width="40" /><br>PostgreSQL</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" /><br>MongoDB</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="40" /><br>Docker</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="40" /><br>Git</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="40" /><br>REST APIs</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ssh/ssh-original.svg" width="40" /><br>TLS/Socket</td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="40" /><br>Linux</td>
+    <td align="center"></td>
+    <td align="center"></td>
+    <td align="center"></td>
+  </tr>
+</table>
 </details>
 
 ---
-
-##  GitHub Analytics
-
-<!--- GitHub stats cards (do not embed — API limits cause failures on profile)
-  <img src="https://github-readme-stats.vercel.app/api?username=Abhi-DevHub&show_icons=true&theme=react&hide_border=true&bg_color=0d1117&icon_color=58a6ff" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhi-DevHub&layout=compact&theme=dark&hide_border=true&bg_color=0d1117" width="41%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Abhi-DevHub&theme=dark&hide_border=true&background=0d1117" width="60%" />
---->
 
 ##  Featured Open Source
 
