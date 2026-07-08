@@ -61,16 +61,11 @@ Currently pursuing my **B.Tech in CSE** at **PES University**, Bengaluru.
 
 ##  GitHub Analytics
 
-<p align="center">
+<!--- GitHub stats cards (do not embed — API limits cause failures on profile)
   <img src="https://github-readme-stats.vercel.app/api?username=Abhi-DevHub&show_icons=true&theme=react&hide_border=true&bg_color=0d1117&icon_color=58a6ff" width="48%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhi-DevHub&layout=compact&theme=dark&hide_border=true&bg_color=0d1117" width="41%" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Abhi-DevHub&theme=dark&hide_border=true&background=0d1117" width="60%" />
-</p>
-
----
+--->
 
 ##  Featured Open Source
 
@@ -81,16 +76,8 @@ Currently pursuing my **B.Tech in CSE** at **PES University**, Bengaluru.
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" width="100%" />
-</p>
-
-<p align="center">
   <i>Thanks for stopping by!</i> ✨
 </p>
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/kunal00000/github-profile-summary-cards/master/profile-summary-card-output/github_dark/0-profile-details.svg" width="90%" />
-</div>
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,1:0d1117&height=120&section=footer" />
