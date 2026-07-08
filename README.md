@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:58a6ff&height=240&section=header&text=Abhishek%20M%20Hiremath&fontSize=44&fontColor=ffffff&fontAlignY=32" />
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,100:0052cc&height=240&section=header&text=Abhishek%20M%20Hiremath&fontSize=44&fontColor=0d1117&fontAlignY=32" />
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:58a6ff&height=180&section=header&text=Abhishek%20M%20Hiremath&fontSize=40&fontColor=ffffff&fontAlignY=30" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ffffff,100:0052cc&height=180&section=header&text=Abhishek%20M%20Hiremath&fontSize=40&fontColor=0d1117&fontAlignY=30" />
 </picture>
 
 <p align="center">
