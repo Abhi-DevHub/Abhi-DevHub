@@ -1,0 +1,307 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 780" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatarGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#60A5FA" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="barPython" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+    <linearGradient id="barJava" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+    <linearGradient id="barCpp" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="cardBorder" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+    <filter id="glowFilter" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadowCard" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes blink {
+      0%, 50% { opacity: 1; }
+      51%, 100% { opacity: 0; }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.6; }
+      50% { opacity: 1; }
+    }
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+    @keyframes glow {
+      0%, 100% { filter: drop-shadow(0 0 8px rgba(59,130,246,0.3)); }
+      50% { filter: drop-shadow(0 0 16px rgba(59,130,246,0.6)); }
+    }
+    .cursor { animation: blink 1s step-end infinite; }
+    .dot { animation: pulse 2s ease-in-out infinite; }
+    .dot:nth-child(2) { animation-delay: 0.3s; }
+    .dot:nth-child(3) { animation-delay: 0.6s; }
+    .glow-ring { animation: glow 3s ease-in-out infinite; }
+    .bar-fill { animation: widen 1.5s ease-out forwards; transform-origin: left; }
+    @keyframes widen {
+      from { transform: scaleX(0); }
+      to { transform: scaleX(1); }
+    }
+    .fade-in { animation: fadeUp 0.6s ease-out forwards; opacity: 0; }
+    .fade-in:nth-child(1) { animation-delay: 0.1s; }
+    .fade-in:nth-child(2) { animation-delay: 0.2s; }
+    .fade-in:nth-child(3) { animation-delay: 0.3s; }
+    .fade-in:nth-child(4) { animation-delay: 0.4s; }
+    .fade-in:nth-child(5) { animation-delay: 0.5s; }
+    .fade-in:nth-child(6) { animation-delay: 0.6s; }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .card-hover { transition: all 0.3s ease; }
+    .card-hover:hover { transform: translateY(-2px); }
+  </style>
+
+  <!-- Terminal Window -->
+  <rect x="10" y="10" width="920" height="760" rx="10" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
+  <rect x="10" y="10" width="920" height="34" rx="10" fill="#161B22"/>
+  <rect x="10" y="32" width="920" height="12" fill="#161B22"/>
+
+  <!-- Traffic Lights -->
+  <circle cx="34" cy="27" r="6" fill="#F85149"/>
+  <circle cx="52" cy="27" r="6" fill="#D29922"/>
+  <circle cx="70" cy="27" r="6" fill="#3FB950"/>
+
+  <!-- Title -->
+  <text x="470" y="32" text-anchor="middle" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="12" fill="#8B949E">abhishek@github:~/README — bash</text>
+
+  <!-- === LEFT COLUMN: AVATAR === -->
+  <g transform="translate(40, 70)">
+    <!-- Avatar glow ring -->
+    <circle cx="100" cy="100" r="68" fill="none" stroke="url(#glow)" stroke-width="4" class="glow-ring"/>
+    <!-- Avatar circle -->
+    <circle cx="100" cy="100" r="65" fill="url(#avatarGrad)"/>
+    <circle cx="100" cy="100" r="65" fill="none" stroke="#1E293B" stroke-width="2"/>
+    <!-- Initial -->
+    <text x="100" y="123" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF">A</text>
+    <!-- Name -->
+    <text x="100" y="195" text-anchor="middle" font-family="'Inter', -apple-system, sans-serif" font-size="18" font-weight="700" fill="#E6EDF3">Abhishek M Hiremath</text>
+    <!-- Tags -->
+    <g class="fade-in">
+      <rect x="25" y="215" width="150" height="24" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <text x="100" y="232" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" fill="#58A6FF">AI Engineer</text>
+    </g>
+    <g class="fade-in">
+      <rect x="25" y="245" width="150" height="24" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <text x="100" y="262" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" fill="#3FB950">Backend Developer</text>
+    </g>
+    <g class="fade-in">
+      <rect x="25" y="275" width="150" height="24" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <text x="100" y="292" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" fill="#D29922">Open Source Contributor</text>
+    </g>
+  </g>
+
+  <!-- === RIGHT COLUMN: NEOFETCH === -->
+  <g transform="translate(310, 70)">
+    <!-- Prompt -->
+    <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="13" fill="#3FB950">
+      <tspan fill="#3FB950">abhishek</tspan>
+      <tspan fill="#8B949E">@</tspan>
+      <tspan fill="#58A6FF">github</tspan>
+      <tspan fill="#8B949E">:~$ </tspan>
+      <tspan fill="#E6EDF3">neofetch</tspan>
+    </text>
+
+    <!-- Neofetch output -->
+    <g font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12">
+      <!-- Divider -->
+      <text x="0" y="22" fill="#30363D">─────────────────────────────</text>
+
+      <text class="fade-in" x="0" y="42" fill="#8B949E">OS        </text>
+      <text class="fade-in" x="105" y="42" fill="#E6EDF3">Windows 11 + Ubuntu</text>
+
+      <text class="fade-in" x="0" y="62" fill="#8B949E">Shell     </text>
+      <text class="fade-in" x="105" y="62" fill="#E6EDF3">PowerShell + ZSH</text>
+
+      <text class="fade-in" x="0" y="82" fill="#8B949E">Editor    </text>
+      <text class="fade-in" x="105" y="82" fill="#E6EDF3">VS Code</text>
+
+      <text class="fade-in" x="0" y="102" fill="#8B949E">Focus     </text>
+      <text class="fade-in" x="105" y="102" fill="#E6EDF3">AI/ML  •  Backend  •  LLMOps</text>
+
+      <text class="fade-in" x="0" y="122" fill="#8B949E">University</text>
+      <text class="fade-in" x="105" y="122" fill="#E6EDF3">PES University</text>
+
+      <text class="fade-in" x="0" y="142" fill="#8B949E">Company   </text>
+      <text class="fade-in" x="105" y="142" fill="#E6EDF3">Sharpsell.ai</text>
+    </g>
+  </g>
+
+  <!-- === DIVIDER === -->
+  <line x1="40" y1="305" x2="900" y2="305" stroke="#30363D" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- === LANGUAGES === -->
+  <g transform="translate(40, 325)">
+    <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" fill="#8B949E" text-transform="uppercase" letter-spacing="2">── Languages ─────────────────────────────────────────────</text>
+
+    <!-- Python -->
+    <g transform="translate(0, 30)">
+      <rect x="0" y="-6" width="260" height="18" rx="3" fill="#161B22"/>
+      <rect x="0" y="-6" width="208" height="18" rx="3" fill="url(#barPython)" class="bar-fill"/>
+      <text x="8" y="7" font-family="'JetBrains Mono', monospace" font-size="11" fill="#FFFFFF" font-weight="600">Python</text>
+      <text x="270" y="7" font-family="'JetBrains Mono', monospace" font-size="11" fill="#8B949E">80%</text>
+      <circle cx="300" cy="3" r="14" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <text x="300" y="8" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#E6EDF3">80</text>
+    </g>
+
+    <!-- Java -->
+    <g transform="translate(0, 58)">
+      <rect x="0" y="-6" width="260" height="18" rx="3" fill="#161B22"/>
+      <rect x="0" y="-6" width="169" height="18" rx="3" fill="url(#barJava)" class="bar-fill"/>
+      <text x="8" y="7" font-family="'JetBrains Mono', monospace" font-size="11" fill="#FFFFFF" font-weight="600">Java</text>
+      <text x="270" y="7" font-family="'JetBrains Mono', monospace" font-size="11" fill="#8B949E">65%</text>
+      <circle cx="300" cy="3" r="14" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <text x="300" y="8" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#E6EDF3">65</text>
+    </g>
+
+    <!-- C++ -->
+    <g transform="translate(0, 86)">
+      <rect x="0" y="-6" width="260" height="18" rx="3" fill="#161B22"/>
+      <rect x="0" y="-6" width="130" height="18" rx="3" fill="url(#barCpp)" class="bar-fill"/>
+      <text x="8" y="7" font-family="'JetBrains Mono', monospace" font-size="11" fill="#FFFFFF" font-weight="600">C++</text>
+      <text x="270" y="7" font-family="'JetBrains Mono', monospace" font-size="11" fill="#8B949E">50%</text>
+      <circle cx="300" cy="3" r="14" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <text x="300" y="8" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#E6EDF3">50</text>
+    </g>
+
+    <!-- Tech icons row -->
+    <g transform="translate(335, 15)">
+      <rect x="0" y="0" width="525" height="100" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <text x="262" y="20" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8B949E" letter-spacing="2">TECH STACK</text>
+      <line x1="20" y1="28" x2="505" y2="28" stroke="#30363D" stroke-width="0.5"/>
+      
+      <!-- Icons row -->
+      <g font-family="'JetBrains Mono', monospace" font-size="10" fill="#8B949E" text-anchor="middle">
+        <text x="47" y="52" font-size="16" fill="#58A6FF"></text>
+        <text x="47" y="68" fill="#E6EDF3">Python</text>
+        
+        <text x="117" y="52" font-size="16" fill="#F59E0B">☕</text>
+        <text x="117" y="68" fill="#E6EDF3">Java</text>
+        
+        <text x="187" y="52" font-size="16" fill="#3B82F6">&#43;&#43;</text>
+        <text x="187" y="68" fill="#E6EDF3">C++</text>
+        
+        <text x="257" y="52" font-size="14" fill="#3FB950">⚛</text>
+        <text x="257" y="68" fill="#E6EDF3">React</text>
+        
+        <text x="327" y="52" font-size="14" fill="#8B5CF6">◆</text>
+        <text x="327" y="68" fill="#E6EDF3">Docker</text>
+        
+        <text x="397" y="52" font-size="14" fill="#EF4444">🗄</text>
+        <text x="397" y="68" fill="#E6EDF3">PostgreSQL</text>
+
+        <text x="467" y="52" font-size="14" fill="#F59E0B">🔥</text>
+        <text x="467" y="68" fill="#E6EDF3">FastAPI</text>
+
+        <text x="47" y="90" font-size="14" fill="#6366F1">◆</text>
+        <text x="47" y="90" fill="#E6EDF3">TensorFlow</text>
+
+        <text x="157" y="90" font-size="14" fill="#EC4899"></text>
+        <text x="157" y="90" fill="#E6EDF3">PyTorch</text>
+
+        <text x="267" y="90" font-size="14" fill="#06B6D4"></text>
+        <text x="267" y="90" fill="#E6EDF3">Next.js</text>
+
+        <text x="377" y="90" font-size="14" fill="#84CC16"></text>
+        <text x="377" y="90" fill="#E6EDF3">Git</text>
+
+        <text x="467" y="90" font-size="14" fill="#F43F5E">◆</text>
+        <text x="467" y="90" fill="#E6EDF3">MongoDB</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- === PROJECTS === -->
+  <g transform="translate(40, 555)">
+    <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" fill="#8B949E" text-transform="uppercase" letter-spacing="2">── Projects ──────────────────────────────────────────────</text>
+
+    <!-- Card 1 -->
+    <g transform="translate(0, 20)" filter="url(#shadowCard)">
+      <rect x="0" y="0" width="430" height="84" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1" class="card-hover"/>
+      <rect x="0" y="0" width="4" height="84" rx="2" fill="#3B82F6"/>
+      <text x="20" y="25" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#E6EDF3">Dynamic LLM Gateway</text>
+      <text x="20" y="45" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8B949E">AI Gateway • Redis • Go • Docker • Kubernetes</text>
+      <rect x="20" y="55" width="60" height="18" rx="3" fill="#1E293B" stroke="#30363D" stroke-width="0.5"/>
+      <text x="50" y="68" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#58A6FF">AI/ML</text>
+      <rect x="86" y="55" width="52" height="18" rx="3" fill="#1E293B" stroke="#30363D" stroke-width="0.5"/>
+      <text x="112" y="68" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#3FB950">Backend</text>
+    </g>
+
+    <!-- Card 2 -->
+    <g transform="translate(450, 20)" filter="url(#shadowCard)">
+      <rect x="0" y="0" width="430" height="84" rx="8" fill="#161B22" stroke="#30363D" stroke-width="1" class="card-hover"/>
+      <rect x="0" y="0" width="4" height="84" rx="2" fill="#8B5CF6"/>
+      <text x="20" y="25" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#E6EDF3">RAG Voice Assistant</text>
+      <text x="20" y="45" font-family="'JetBrains Mono', monospace" font-size="10" fill="#8B949E">RAG • LiveKit • OpenAI • Pinecone • Streamlit</text>
+      <rect x="20" y="55" width="52" height="18" rx="3" fill="#1E293B" stroke="#30363D" stroke-width="0.5"/>
+      <text x="46" y="68" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#58A6FF">AI/ML</text>
+      <rect x="78" y="55" width="52" height="18" rx="3" fill="#1E293B" stroke="#30363D" stroke-width="0.5"/>
+      <text x="104" y="68" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#D29922">LLMOps</text>
+    </g>
+  </g>
+
+  <!-- === DIVIDER === -->
+  <line x1="40" y1="670" x2="900" y2="670" stroke="#30363D" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- === GITHUB STATS === -->
+  <g transform="translate(40, 688)">
+    <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" fill="#8B949E" text-transform="uppercase" letter-spacing="2">── GitHub Stats ───────────────────────────────────────────</text>
+
+    <!-- Repos -->
+    <g transform="translate(0, 22)">
+      <text x="0" y="7" font-family="'JetBrains Mono', monospace" font-size="11" fill="#8B949E" width="80">Repos   </text>
+      <rect x="85" y="-4" width="240" height="16" rx="3" fill="#161B22"/>
+      <rect x="85" y="-4" width="180" height="16" rx="3" fill="#58A6FF" class="bar-fill"/>
+      <text x="340" y="7" font-family="'JetBrains Mono', monospace" font-size="11" fill="#E6EDF3" font-weight="600">26</text>
+    </g>
+
+    <!-- Stars -->
+    <g transform="translate(0, 44)">
+      <text x="0" y="8" font-family="'JetBrains Mono', monospace" font-size="11" fill="#8B949E">Stars   </text>
+      <rect x="85" y="-3" width="240" height="16" rx="3" fill="#161B22"/>
+      <rect x="85" y="-3" width="100" height="16" rx="3" fill="#D29922" class="bar-fill"/>
+      <text x="340" y="9" font-family="'JetBrains Mono', monospace" font-size="11" fill="#E6EDF3" font-weight="600">14</text>
+    </g>
+
+    <!-- Followers -->
+    <g transform="translate(0, 66)">
+      <text x="0" y="8" font-family="'JetBrains Mono', monospace" font-size="11" fill="#8B949E">Followers</text>
+      <rect x="85" y="-3" width="240" height="16" rx="3" fill="#161B22"/>
+      <rect x="85" y="-3" width="50" height="16" rx="3" fill="#3FB950" class="bar-fill"/>
+      <text x="340" y="9" font-family="'JetBrains Mono', monospace" font-size="11" fill="#E6EDF3" font-weight="600">4</text>
+    </g>
+  </g>
+
+  <!-- === FOOTER === -->
+  <g transform="translate(470, 755)">
+    <text font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" fill="#3FB950">$ </text>
+    <text x="18" y="0" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="12" fill="#E6EDF3">code .</text>
+    <rect x="72" y="-8" width="2" height="16" fill="#E6EDF3" class="cursor"/>
+  </g>
+</svg>
